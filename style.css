@@ -1,0 +1,21 @@
+.temporizador {
+  border: 2px dotted black;
+  border-radius: 50%;
+  height: 175px;
+  width: 175px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#tempo {
+  font-size: 30px;
+  text-align: center;
+}
+
+.fa-alarm-clock {
+  font-size: 28px;
+}
