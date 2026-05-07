@@ -12,14 +12,19 @@
   </head>
   <body>
     <div class="linha-config">
-      <button id="diminuir">-</button>
-      <input type="text" disabled id="valor-atual" />
-      <button id="aumentar">+</button>
+      <button id="diminuir" class="btn-formato">-</button>
+      <input type="text" disabled id="valor-atual" class="input-estilo" />
+      <button id="aumentar" class="btn-formato">+</button>
     </div>
 
     <div class="temporizador">
       <i class="fa-solid fa-alarm-clock"></i>
-      <span id="tempo">60 segs.</span>
+      <span id="tempo">0 segs.</span>
+    </div>
+
+    <div class="botoes-temporizador">
+      <button id="botao-zerar">ZERAR</button>
+      <button id="botao-add">ADICIONAR</button>
     </div>
     <script src="app.js"></script>
   </body>
